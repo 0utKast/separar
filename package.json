@@ -9,7 +9,9 @@
     "babel-version": "babel --version",
     "build": "rimraf dist/ && npx babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "yarn build && node dist/index.js"
+    "serve": "yarn build && node dist/index.js",
+    "fix": "eslint src --fix",
+    "lint": "eslint src"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
