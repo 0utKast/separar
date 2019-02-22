@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "0utKast <educaleft@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist/ && babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
