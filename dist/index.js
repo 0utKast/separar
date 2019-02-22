@@ -10,7 +10,7 @@ const requestHandler = function (req, res) {
   res.writeHead(200, {
     "Content-Type": "text/plain"
   });
-  res.end("Otro cambio más");
+  res.end("Otro cambio");
 };
 
 const server = _http.default.createServer(requestHandler);

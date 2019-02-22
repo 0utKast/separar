@@ -9,7 +9,7 @@
     "babel-version": "babel --version",
     "build": "rimraf dist/ && npx babel src -d dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "node dist/index.js"
+    "serve": "yarn build && node dist/index.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
